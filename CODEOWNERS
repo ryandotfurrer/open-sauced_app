@@ -15,59 +15,40 @@
 CHANGELOG.md @brandonroberts @zeucapua @nickytonline
 CODEOWNERS @nickytonline @brandonroberts
 components/Contributors/Oscr.tsx @brandonroberts
-components/Repositories/ContributorConfidenceChart.tsx @nickytonline @brandonroberts
 components/Repositories/LotteryFactorBadge.tsx @zeucapua @brandonroberts
-components/Repositories/LotteryFactorChart.tsx @zeucapua @brandonroberts
-components/Repositories/OssfChart.tsx @brandonroberts @nickytonline
-components/Repositories/RossChart.tsx @zeucapua @brandonroberts
-components/Workspaces/InsightUpgradeModal.tsx @brandonroberts
+components/Repositories/LotteryFactorChart.tsx @brandonroberts @zeucapua
+components/Repositories/OssfChart.tsx @brandonroberts
+components/Repositories/RossChart.tsx @brandonroberts
 components/Workspaces/WorkspaceHeader.tsx @brandonroberts
 components/Workspaces/WorkspaceLayout.tsx @zeucapua @brandonroberts
-components/atoms/Select/single-select.tsx @brandonroberts @zeucapua
+components/atoms/Select/single-select.tsx @zeucapua @brandonroberts
 components/molecules/AuthContentWrapper/auth-content-wrapper.stories.tsx @brandonroberts
-components/molecules/ContributorListTableRow/contributor-list-table-row.stories.tsx @jpmcb @brandonroberts
-components/molecules/ContributorListTableRow/contributor-list-table-row.tsx @jpmcb @brandonroberts
 components/molecules/FilterHeader/filter-header.tsx @brandonroberts
 components/molecules/NivoScatterChart/nivo-scatter-chart.tsx @brandonroberts
 components/molecules/RepoRow/repo-row.tsx @zeucapua @brandonroberts
 components/molecules/TableHeader/table-header.tsx @brandonroberts
-components/organisms/ContributorCard/contributor-card.stories.tsx @jpmcb @brandonroberts
-components/organisms/ContributorCard/contributor-card.tsx @brandonroberts @jpmcb
-components/organisms/ContributorProfilePage/contributor-profile-page.tsx @jpmcb @brandonroberts
-components/organisms/Contributors/contributors.tsx @jpmcb @brandonroberts
-components/organisms/ContributorsList/contributors-list.tsx @jpmcb @brandonroberts
-components/organisms/ContributorsTable/contributors-table.tsx @jpmcb @brandonroberts
+components/organisms/ContributorCard/contributor-card.tsx @brandonroberts
 components/organisms/Dashboard/dashboard.stories.tsx @brandonroberts
-components/organisms/Dashboard/dashboard.tsx @brandonroberts @jpmcb
-components/organisms/Repositories/repositories.tsx @brandonroberts @zeucapua
+components/organisms/Dashboard/dashboard.tsx @brandonroberts
+components/organisms/Repositories/repositories.tsx @zeucapua @brandonroberts
 components/organisms/RepositoriesTable/repositories-table.tsx @zeucapua @brandonroberts
-components/organisms/SearchDialog/search-dialog.tsx @nickytonline @brandonroberts
+components/organisms/SearchDialog/search-dialog.tsx @nickytonline
 components/organisms/ToolsDisplay/tools-display.tsx @brandonroberts
 components/organisms/TopNav/top-nav.tsx @brandonroberts
 components/organisms/UserRepositoryRecommendations/user-repository-recommendations.tsx @brandonroberts
 components/organisms/UserSettingsPage/coupon-form.tsx @brandonroberts
 components/organisms/UserSettingsPage/user-settings-page.tsx @brandonroberts
 components/shared/AppSidebar/AppSidebar.tsx @brandonroberts
-components/shared/CopyContainer.stories.tsx @brandonroberts
-components/shared/CopyContainer.tsx @brandonroberts @zeucapua
-components/shared/CopyImageBranding.tsx @zeucapua @brandonroberts
 components/shared/DayRangePicker.tsx @zeucapua @brandonroberts
 components/shared/SplitButton.stories.tsx @nickytonline @brandonroberts
 components/shared/SplitButton.tsx @nickytonline @brandonroberts @zeucapua
 e2e/explore-page.spec.ts @brandonroberts
-e2e/repo-page.spec.ts @brandonroberts @zeucapua
-e2e/user-profile.spec.ts @brandonroberts
-e2e/workspace-contributor-insight.spec.ts @brandonroberts
+e2e/repo-page.spec.ts @zeucapua
 layouts/filter.tsx @brandonroberts
-lib/hooks/api/useContributors.ts @jpmcb @brandonroberts
-lib/utils/copy-to-clipboard.ts @brandonroberts @nickytonline @zeucapua
+lib/utils/copy-to-clipboard.ts @nickytonline @brandonroberts
 lib/utils/url-validators.ts @brandonroberts
-next-types.d.ts @jpmcb @brandonroberts
-npm-shrinkwrap.json @brandonroberts @zeucapua @nickytonline
-package.json @brandonroberts @zeucapua @nickytonline
-pages/s/\[org\]/\[repo\]/index.tsx @brandonroberts @zeucapua @nickytonline
-pages/start.tsx @brandonroberts
-pages/u/\[username\]/index.tsx @brandonroberts @nickytonline
-pages/workspaces/\[workspaceId\]/contributors.tsx @jpmcb @brandonroberts
+npm-shrinkwrap.json @zeucapua @brandonroberts @nickytonline
+package.json @zeucapua @brandonroberts @nickytonline
+pages/s/\[org\]/\[repo\]/index.tsx @zeucapua @brandonroberts
+pages/u/\[username\]/index.tsx @nickytonline @brandonroberts
 pages/workspaces/\[workspaceId\]/repository-insights/\[insightId\]/dashboard.tsx @brandonroberts
-playwright.config.ts @brandonroberts
